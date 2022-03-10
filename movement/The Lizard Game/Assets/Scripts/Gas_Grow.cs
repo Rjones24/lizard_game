@@ -15,7 +15,6 @@ public class Gas_Grow : MonoBehaviour
         {
             hitMax = true;
             hitMin = false;
-            Debug.Log("hitmax");
         }
         else if(transform.localScale.x <= 0.5f)
         {
@@ -25,7 +24,7 @@ public class Gas_Grow : MonoBehaviour
 
         if (hitMin)
         {
-            transform.localScale -= scaleChange;
+            transform.localScale -= scaleChange*2;
         }
         else if(hitMax)
         {

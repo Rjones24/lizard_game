@@ -813,7 +813,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d0d19a90c70a35447a0cf22d590db455, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -850,7 +850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422622743}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.95, y: -6.32, z: -1.81}
+  m_LocalPosition: {x: 13.62, y: -6.32, z: -1.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8567,5 +8567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Explodable
       objectReference: {fileID: 0}
+    - target: {fileID: 9089288511504890342, guid: 69082ea0dff728a49bdd6f717d00b9e2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: de69e0579d6af89469282adb07bc1913, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69082ea0dff728a49bdd6f717d00b9e2, type: 3}

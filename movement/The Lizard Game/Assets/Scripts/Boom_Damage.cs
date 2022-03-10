@@ -14,7 +14,7 @@ public class Boom_Damage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (time - Time.time <= -5.0f)
+        if (time - Time.time <= -1.0f)
         Destroy(this.gameObject);
     }
 
